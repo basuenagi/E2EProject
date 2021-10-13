@@ -41,10 +41,9 @@ public class validateTitle extends base{
 		LandingPage l=new LandingPage(driver);
 		//compare the text from the browser with actual text.- Error..
 		Assert.assertEquals(l.getTitle().getText(), "FEATURED CO123URSES");
-		 log.info("Successfully validated Text message");
-		 System.out.println("Test completed");
-		 
-		;
+		log.info("Successfully validated Text message");
+		System.out.println("Test completed");
+		System.out.println("Manual file update git update");
 	
 		
 		}
